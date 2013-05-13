@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface colorViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *myLabel;
+- (IBAction)changeColor:(UIButton *)sender;
+
 
 @end
